@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+	<meta name="theme-color" content="#2196f3">
+
+	<title>My F7 App</title>
+
+	<link rel="stylesheet" href="aset/framework7-bundle.min.css">
+	<link rel="stylesheet" href="aset/framework7-icons.css">
+	<!--link rel="stylesheet" href="aset/my-app.css"-->	
+</head>
+<body>
+    
+<div id="app"><!-- App root element -->
+	<!-- Your main view, should have "view-main" class -->
+	<div class="view view-main">
+		<!-- Initial Page, "data-name" contains page name -->
+		<div data-name="home" class="page">
+			<!-- Top Navbar -->
+			<div class="navbar">
+                <div class="navbar-bg"></div>
+				<div class="navbar-inner">
+				 	<div class="title"> Tugas #1 - C2057201084</div>
+					<!-- Bagian Bar -->
+					 <div class="right"><a href="#" class="panel-open"><i class="f7-icons">bars</i></a></div>
+					<!-- Bagian Panel Kanan -->
+				  	<div class="panel panel-right panel-reveal panel-cover" data-name="panel">
+						<div class="block">
+							<p><h2>Panel Kanan</h2></p>
+							<div class="list links-list">
+								<ul>
+									<li><a href="#" class="panel-close"><i class="f7-icons">clear</i><p class="margin-right">Tutup Panel</p></a></li>
+									<li><a href="/data-diri/" class="panel-close" data-transition="f7-parallax">Data Diri</a></li>
+									<li><a href="/riwayat-pendidikan/" class="panel-close" data-transition="f7-flip">Riwayat Pendidikan</a></li>
+								</ul>
+							</div>						
+						</div>
+				  	</div>
+					<!-- End Panel Kanan -->
+				</div>
+			</div>			
+			
+			<!-- Scrollable page content -->
+			<div class="page-content">
+				<!-- Bagian Konten Home -->
+                <div class="padding">
+                        <p>ini adalah hasil penyelesaian TUGAS #1 mata kuliah Pemrograman Berbasis Perangkat Bergerak (Mobile) Semester 5</p>
+                        <p>Prodi Sistem Informasi STMIK Palangkaraya</p>
+                        <p>Tahun Akademik 2022/2023 Ganjil</p>
+                        <p>C2057201084 - Adiyasa Dinata Uda</p>
+                        <a class="col button button-fill color-red panel-open" href="#">Buka Panel</a>
+                    </div>   
+                </div>		
+			</div> 
+			<!-- End Konten Home -->
+
+			<!--Page Data Diri -->
+			<!-- Bagian Card -->
+			<div data-name="data-diri" class="page stacked">
+				<h2 class="padding-left">Data Diri</h2>
+                <div class="card">
+                    <div class="card-header">
+                        <a href="#" class="link">
+                            <i class="f7-icons">logo_instagram</i>
+                        </a>
+                        <a href="#" class="link">
+                            <i class="f7-icons">logo_facebook</i>
+                        </a>
+                        <a href="#" class="link">
+                            <i class="f7-icons">logo_twitter</i>
+                        </a>
+                        <a href="#" class="color-black">                
+                            <i class="f7-icons">phone</i>0822528344xx                            
+                        </a>                        
+                    </div>
+                    <div class="card-footer">
+                        <img src="image/ta.jpg" alt="spek standar" width="330px" height="450px">
+                    </div>
+                    <div class="card-footer">
+                        <div>Adiyasa Dinata Uda</div>
+                    </div>
+                    <div class="card-footer">
+                        <div>C2057201084</div>
+                    </div>
+                    <div class="card-footer">
+                        <div>Sistem Informasi</div>
+                    </div>
+                    <div class="card-footer">
+                        <div>Angkatan 2020</div>
+                    </div>
+                </div>
+				<!-- End Bagian Card -->
+
+				<!-- Bagian Footer Card -->
+				<div class="toolbar toolbar-bottom">
+                    <div class="toolbar-inner">
+                        <a href="#" class="link left panel-open">Panel</a> 
+                        <a href="#" class="link right back"><i class="f7-icons">arrow_left</i></a>
+                    </div>
+                </div>
+				<!-- End Bagian Footer Card -->
+			</div>
+			<!-- End Data Diri -->
+
+			<!-- Page Riwayat Pendidikan -->
+			<div data-name="riwayat-pendidikan" class="page stacked">
+				<!-- Navbar -->
+				<div class="navbar">
+					<div class="navbar-bg"></div>
+					<div class="navbar-inner">
+						  <div class="left"><a href="#" class="back" data-transition="f7-parallax"><i class="f7-icons">multiply</i></a></div>
+						 <div class="title justify">Riwayat Pendidikan</div>				  				  	
+					</div>
+				</div>
+				<!-- End Navbar -->
+				<!--Bagian Timeline--> 
+				<div class="page-content">                               
+					<div class="timeline timeline-sides">
+					<!--TimeLine Force Left/Kiri-->
+					<div class="timeline-item timeline-item-left">
+						<div class="timeline-item-date">2008-2014</div>                    
+						<div class="timeline-item-divider"></div>
+						<div class="timeline-item-content">
+							<div class="timeline-item-inner bg-color-red"><p class="text-color-white">SDN 2 Lenggang</p></div>
+						</div>
+					</div>
+					<div class="timeline-item timeline-item-left">
+						<div class="timeline-item-date">2014-2017</div>                    
+						<div class="timeline-item-divider"></div>
+						<div class="timeline-item-content">
+							<div class="timeline-item-inner bg-color-lightblue"><p class="text-color-white">SMPN 2 Dusun Tengah</p></div>
+						</div>
+					</div>
+					<div class="timeline-item timeline-item-left">
+						<div class="timeline-item-date">2017-2020</div>                    
+						<div class="timeline-item-divider"></div>
+						<div class="timeline-item-content">
+							<div class="timeline-item-inner bg-color-gray"><p class="text-color-white">SMAN 1 Dusun Tengah</p></div>
+						</div>
+					</div>
+					<!-- TimeLine Force Right/Kanan -->
+					<div class="timeline-item timeline-item-right">
+						<div class="timeline-item-date">2020-sekarang</div>                    
+						<div class="timeline-item-divider"></div>
+						<div class="timeline-item-content">
+							<div class="timeline-item-inner bg-color-blue"><p class="text-color-white">STMIK Palangkaraya</p></div>
+						</div>
+					</div> 
+				</div>
+			</div>
+			<!-- End Bagian TimeLine -->
+			</div>
+			<!-- End Page Riwayat Pendidikan -->
+
+		</div>				
+	</div>					
+</div>
+
+</div><!-- App root element -->
+
+<script type="text/javascript" src="aset/framework7-bundle.min.js"></script>
+<!--script type="text/javascript" src="aset/my-app.js"></script-->
+
+<script>
+var app = new Framework7({
+	el: '#app',
+	name: 'Tugas 1',
+	id: 'adiyasadinata.uda@gmail.com',
+	panel: {
+		swipe: true,
+	},
+	view: {
+		stackPages: true,
+	},
+	routes: [
+		{
+			path: '/data-diri/',
+			pageName: 'data-diri',
+		},
+		{
+			path: '/riwayat-pendidikan/',
+			pageName: 'riwayat-pendidikan',
+		}		
+	],
+	
+});
+var mainView = app.views.create('.view-main');
+
+</script>
+
+</body>
+</html>
